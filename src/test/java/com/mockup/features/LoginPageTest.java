@@ -1,21 +1,19 @@
 package com.mockup.features;
 
-import com.mockup.MyWebDriver;
+import com.mockup.ChromeWebDriver;
+import com.mockup.pageDefinitions.HomePage;
 import com.mockup.pageDefinitions.LoginPage;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.WebDriver;
 
-public class LoginPageTest extends MyWebDriver {
-    private WebDriver driver;
+public class LoginPageTest {
     private LoginPage loginPage;
+    private ChromeWebDriver driver;
 
     @Before
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "/home/robert.curetean/Desktop/Projects/Java Selenium Mockup/src/main/resources/chromedriver");
-        driver.get("https://www.google.com");
-        loginPage = new LoginPage(driver);
+        HomePage homePage = new HomePage(driver);
+        homePage.navigateToHomePage();
     }
 
     @Test
@@ -23,11 +21,7 @@ public class LoginPageTest extends MyWebDriver {
         loginPage.setUsername("username");
         loginPage.setPassword("password");
         loginPage.clickLoginButton();
-        // Add assertions to verify successful login
-    }
-
-    @After
-    public void destroy() {
         driver.quit();
+        // Add assertions to verify successful login
     }
 }
