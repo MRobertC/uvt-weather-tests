@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d659fa9-cd92-486f-82ca-bf0da884f28a" name="Changes" comment="mockup automation project">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver_mac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9d659fa9-cd92-486f-82ca-bf0da884f28a" name="Changes" comment="Add chromedriver 113 for windows/linux/mac">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/ChromeWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/ChromeWebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/pageDefinitions/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/pageDefinitions/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/pageDefinitions/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver_linux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver_windows.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver_windows.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mockup/features/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/features/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mockup/features/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/features/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mockup/features/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/features/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_directory_selection": "/home/robert.curetean/Desktop/Projects/Java Selenium Mockup/src/test/java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/robert.curetean/Desktop/Projects/Java Selenium Mockup/src/test/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\uvt-weather-tests\src\main\resources" />
@@ -174,11 +163,20 @@
       <option name="presentableId" value="Default" />
       <updated>1678441735627</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add chromedriver 113 for windows/linux/mac">
+      <created>1683114109595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683114109595</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="mockup automation project" />
-    <option name="LAST_COMMIT_MESSAGE" value="mockup automation project" />
+    <MESSAGE value="Add chromedriver 113 for windows/linux/mac" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add chromedriver 113 for windows/linux/mac" />
   </component>
 </project>

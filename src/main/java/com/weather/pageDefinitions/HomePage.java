@@ -12,6 +12,6 @@ public class HomePage {
 
     public void navigateToHomePage() {
         driver = new ChromeWebDriver();
-        driver.get("https://www.emag.ro");
+        driver.get("http://localhost:4200");
     }
 }
