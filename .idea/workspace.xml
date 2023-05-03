@@ -5,24 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d659fa9-cd92-486f-82ca-bf0da884f28a" name="Changes" comment="mockup automation project">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google-chrome-stable_110.0.5481.177-1_amd64.deb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mockup/ChromeWebDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver_windows.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mockup/features/HomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mockup/features/LoginPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mockup/features/RegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver_mac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/ChromeWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/ChromeWebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/pageDefinitions/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/pageDefinitions/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mockup/pageDefinitions/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/pageDefinitions/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver_linux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver_windows.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver_windows.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mockup/features/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/features/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mockup/features/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/features/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mockup/features/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weather/features/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +36,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="Rerun Failed Tests" />
-    </enabled-run-configurations>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
@@ -72,10 +62,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_directory_selection": "/home/robert.curetean/Desktop/Projects/Java Selenium Mockup/src/test/java"
+    "last_directory_selection": "/home/robert.curetean/Desktop/Projects/Java Selenium Mockup/src/test/java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegistrationTest.testRegistration">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\uvt-weather-tests\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginPageTest.testLogin (1)">
     <configuration name="HomePageTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSeleniumMockup" />
       <extension name="coverage">
@@ -103,6 +102,22 @@
       <option name="PACKAGE_NAME" value="com.mockup.features" />
       <option name="MAIN_CLASS_NAME" value="com.mockup.features.HomePageTest" />
       <option name="METHOD_NAME" value="testTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.testLogin (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uvt-weather-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weather.features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.weather.features" />
+      <option name="MAIN_CLASS_NAME" value="com.weather.features.LoginPageTest" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,6 +157,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginPageTest.testLogin (1)" />
         <item itemvalue="JUnit.RegistrationTest.testRegistration" />
         <item itemvalue="JUnit.HomePageTest.testTitle" />
         <item itemvalue="JUnit.HomePageTest.testLogin" />
